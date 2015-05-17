@@ -1,0 +1,26 @@
+{
+    "name": "filsh/yii2-runner",
+    "description": "Component for run different objects or functions",
+    "keywords": ["yii", "extension"],
+    "homepage": "https://github.com/filsh/yii2-runner",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "email": "imaliy.filsh@gmail.com",
+        "source": "https://github.com/filsh/yii2-runner"
+    },
+    "authors": [
+        {
+            "name": "Igor Maliy",
+            "email": "imaliy.filsh@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "filsh\\yii2\\runner\\": ""
+        }
+    }
+}
